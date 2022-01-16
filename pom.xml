@@ -17,23 +17,27 @@
         <java.version>11</java.version>
     </properties>
     <dependencies>
-
+        <!-- 非必选: 但强烈建议使用这个依赖简化POJO类的代码编写 -->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <optional>true</optional>
         </dependency>
 
+        <!-- Spring Batch 必选依赖-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-batch</artifactId>
         </dependency>
 
+        <!-- 官网用的是hsqldb,我对比了下,两者差别不大,而且H2比hsqlDB做了很多优化升级 -->
         <dependency>
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
             <scope>runtime</scope>
         </dependency>
+
+        <!-- 测试相关类库 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
