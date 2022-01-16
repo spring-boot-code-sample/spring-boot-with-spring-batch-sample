@@ -1,6 +1,5 @@
 # spring-boot-with-spring-batch-sample
-## 1.1 Download code
-### create a new repository on the command line
+## 1.1 init Project
 ```
 echo "# spring-boot-with-spring-batch-sample" >> README.md
 git init
@@ -13,7 +12,7 @@ git push -u origin main
 ## 1.2 about code branch 
 - spring-boot-2.6.2-maven-release 
 Spring Boot Version 2.6.2
-JDK 1.8
+JDK 11
 - spring-boot-2.6.2-gradle-release
 Spring Boot Version 2.6.2
 JDK 11
