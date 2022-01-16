@@ -10,10 +10,12 @@ git remote add origin git@github.com:spring-boot-code-sample/spring-boot-with-sp
 git push -u origin main
 ```
 ## 1.2 about code branch 
-- spring-boot-2.6.2-maven-release 
+- spring-boot-2.6.2-maven-release
+
 Spring Boot Version 2.6.2
 JDK 11
 - spring-boot-2.6.2-gradle-release
+
 Spring Boot Version 2.6.2
 JDK 11
 
