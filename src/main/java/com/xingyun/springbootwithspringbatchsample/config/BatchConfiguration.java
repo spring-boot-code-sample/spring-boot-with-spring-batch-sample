@@ -83,6 +83,7 @@ public class BatchConfiguration {
     // tag::jobstep[]
     @Bean
     public Job importUserJob(JobCompletionNotificationListener listener, Step step1) {
+        // Job: [FlowJob: [name=importUserJob]] launched with the following parameters: [{run.id=1}]
         return jobBuilderFactory.get("importUserJob")
                 .incrementer(new RunIdIncrementer())
                 .listener(listener)
@@ -95,8 +96,11 @@ public class BatchConfiguration {
     public Step step1(JdbcBatchItemWriter<Person> writer) {
         return stepBuilderFactory.get("step1")
                 .<Person, Person> chunk(10)
+                // 读取
                 .reader(reader())
+                // 处理
                 .processor(processor())
+                // 写入数据库
                 .writer(writer)
                 .build();
     }

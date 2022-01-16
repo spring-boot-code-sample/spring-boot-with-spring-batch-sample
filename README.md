@@ -31,6 +31,8 @@ git clone spring-boot-2.6.2-maven-release git@github.com:spring-boot-code-sample
 ```
 git clone spring-boot-2.6.2-gradle-release git@github.com:spring-boot-code-sample/spring-boot-with-spring-batch-sample.git
 ```
+# 2. Reference 
 
+[https://spring.io/guides/gs/batch-processing/](https://spring.io/guides/gs/batch-processing/)
 
 
