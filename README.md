@@ -19,17 +19,9 @@ Project Type: Gradle Project
 
 ## 1.2 Download Code Sample
 
-- fetch default master branch
+- fetch default main branch
 ```
-git clone -b master git@github.com:spring-boot-code-sample/spring-boot-with-spring-batch-sample.git
-```
-- fetch spring-boot-2.6.2-maven-release
-```
-git clone spring-boot-2.6.2-maven-release git@github.com:spring-boot-code-sample/spring-boot-with-spring-batch-sample.git
-```
-- fetch spring-boot-2.6.2-gradle-release
-```
-git clone spring-boot-2.6.2-gradle-release git@github.com:spring-boot-code-sample/spring-boot-with-spring-batch-sample.git
+git clone -b main git@github.com:spring-boot-code-sample/spring-boot-with-spring-batch-sample.git
 ```
 # 2. Reference 
 
