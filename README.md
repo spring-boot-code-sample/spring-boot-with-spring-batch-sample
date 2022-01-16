@@ -1,15 +1,6 @@
 # spring-boot-with-spring-batch-sample
-## 1.1 init Project
-```
-echo "# spring-boot-with-spring-batch-sample" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin git@github.com:spring-boot-code-sample/spring-boot-with-spring-batch-sample.git
-git push -u origin main
-```
-## 1.2 about code branch 
+Introduce how to use spring batch with spring boot
+## 1.1 About code branch
 - spring-boot-2.6.2-maven-release
 
 Spring Boot Version:2.6.2
@@ -25,4 +16,21 @@ Spring Boot Version:2.6.2
 JDK Version:Open JDK 11
 
 Project Type: Gradle Project
+
+## 1.2 Download Project Code
+
+- fetch default master branch
+```
+git clone -b master git@github.com:spring-boot-code-sample/spring-boot-with-spring-batch-sample.git
+```
+- fetch spring-boot-2.6.2-maven-release
+```
+git clone spring-boot-2.6.2-maven-release master git@github.com:spring-boot-code-sample/spring-boot-with-spring-batch-sample.git
+```
+- fetch spring-boot-2.6.2-gradle-release
+```
+git clone spring-boot-2.6.2-gradle-release master git@github.com:spring-boot-code-sample/spring-boot-with-spring-batch-sample.git
+```
+
+
 
