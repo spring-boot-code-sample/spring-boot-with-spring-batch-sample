@@ -17,7 +17,7 @@ JDK Version:Open JDK 11
 
 Project Type: Gradle Project
 
-## 1.2 Download Project Code
+## 1.2 Download Code Sample
 
 - fetch default master branch
 ```
